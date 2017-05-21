@@ -14,6 +14,8 @@ img {
 
 }
 
+
+
 span {
   color: rgb(245,107,42);
 }
@@ -23,7 +25,22 @@ p {
 }
 
 .map {
+  margin-top: 10%;
   width: 100%;
+}
+
+
+li {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  width: 100%;
+  background: #f2f2f2;
 }
 /* ==========================================================================
    Browser Upgrade Prompt
@@ -33,7 +50,26 @@ p {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+main p {
+  margin: 8em auto 5em auto;
+}
 
+
+aside ul {
+  text-align: right;
+  top: 75px;
+ position: absolute!important;
+ font-size: 0.9em;
+ text-shadow: 0 0.3px 0.2px;
+ right: 38px;
+   }
+
+
+
+aside ul li a:hover {
+  text-decoration: none;
+  color: rgb(245,107,42);
+     }
 
 /* ==========================================================================
    Helper classes
