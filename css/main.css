@@ -65,10 +65,17 @@ footer {
  font-size: 14px;
 }
 
-.partners p {
+.partners p, .clearfix p{
   margin-top: 0;
 }
 
+.copyright {
+  margin-left: 60px;
+}
+
+section img {
+  width: 5%;
+}
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
