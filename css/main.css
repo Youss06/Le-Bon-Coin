@@ -49,6 +49,18 @@ footer {
   width: 100%;
   background: #f2f2f2;
 }
+
+
+.propos {
+  width: 100%;
+  background: #474747;
+}
+
+
+.propos a, .propos {
+  color: white;
+
+}
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
@@ -58,24 +70,24 @@ footer {
    Author's custom styles
    ========================================================================== */
 main p {
-  margin: 8em auto 5em auto;
+  margin: 12em auto 5em auto;
 }
 
 
-aside ul {
+aside ul{
   text-align: right;
   top: 75px;
  position: absolute!important;
  font-size: 0.9em;
  text-shadow: 0 0.3px 0.2px;
  right: 38px;
-   }
+}
 
 
 
 aside ul li a:hover {
   text-decoration: none;
-  color: rgb(245,107,42);
+  color: #f56b2a;
      }
 
 /* ==========================================================================
